@@ -1,0 +1,174 @@
+.sidebar {
+  height: 100%;
+  width: 150px;
+  background-color: rgba(91, 187, 246, 0.8);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.sidebar a {
+  padding: 30px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2c5969;
+  display: block;
+}
+
+a:hover {
+  color: #3021f4;
+}
+
+.Search {
+  width: 110px;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #c5e4ee;
+  border-radius: 20%;
+}
+
+#Menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a:hover {
+  color: #3021f4;
+}
+
+#MainName {
+  margin-left: 142px;
+  text-align: center;
+  background: #1a4dbc;
+  color: rgb(164, 225, 245);
+  font-size: 20px;
+  padding: 15px;
+}
+
+main {
+  padding: 5px;
+  height: fit-content;
+  margin-left: 142px;
+  background-image: linear-gradient(
+    rgb(6, 149, 238, 0.7),
+    rgba(30, 7, 242, 0.7)
+  );
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgb(60, 52, 224);
+}
+.container {
+  position: relative;
+  margin-left: 20px;
+}
+
+.text-block {
+  position: absolute;
+  background-color: rgba(91, 187, 246, 0.8);
+  border-radius: 2%;
+  color: rgb(160, 213, 239);
+  padding-left: 5px;
+  padding-right: 5px;
+  bottom: 4px;
+  left: 52px;
+}
+
+h4 {
+  font-size: small;
+}
+#MainLink {
+  text-decoration: none;
+  color: rgb(164, 225, 245);
+}
+img {
+  border-radius: 2%;
+  border-color: #2c5969;
+  border-bottom-color: #3232a0;
+}
+
+#CharPhoto {
+  width: 160px;
+  border-radius: 2%;
+  border-color: #2c5969;
+  border-bottom-color: #3232a0;
+}
+
+.about {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #2c5969;
+}
+
+.CharDescription {
+  font-size: smaller;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: #25257a;
+  border-radius: 5%;
+  display: inline-table;
+  text-align: center;
+}
+
+#death {
+  color: rgb(24, 7, 86);
+  opacity: 0%;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 7px;
+  background-color: rgba(31, 7, 242, 0.76);
+  color: rgba(7, 26, 65, 0.7);
+  margin-left: 142px;
+}
+
+@media screen and (max-width: 600px) {
+  #MainName {
+    position: sticky;
+  }
+  .Search {
+    width: 110px;
+    font-size: 18px;
+    padding: 20px;
+    position: sticky;
+    border: 1px solid #c5e4ee;
+    border-radius: 20%;
+  }
+  .sidebar {
+    padding: 10px;
+    height: 50px;
+    width: 600px;
+    background-color: rgba(42, 90, 199, 0.7);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  main {
+    padding: 5px;
+    height: 400px;
+    background-image: linear-gradient(
+      rgb(6, 149, 238, 0.7),
+      rgba(30, 7, 242, 0.7)
+    );
+  }
+}
